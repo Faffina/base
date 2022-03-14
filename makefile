@@ -38,5 +38,4 @@ dir:
 	@mkdir include
 	@mkdir obj
 	@mkdir source
-	@mkdir .dep
 	@echo "#include<iostream>\nusing namespace std;\n\nint main(int argc, char** argv)\n{\n\n}" > source/main.cpp

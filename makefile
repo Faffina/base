@@ -38,4 +38,5 @@ dir:
 	@mkdir include
 	@mkdir obj
 	@mkdir source
+	@sudo rm -R .git
 	@echo "#include<iostream>\nusing namespace std;\n\nint main(int argc, char** argv)\n{\n\n}" > source/main.cpp
